@@ -1,0 +1,196 @@
+/* ----------------------- General */
+body {
+    background-color: rgb(237, 245, 248);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+    
+}
+/* ----------------------- Header */
+
+
+
+/* ----------------------- Footer */
+footer {
+    background-color:#F8F8F8;
+    min-height: 100px;
+    margin: 0;
+}
+
+
+
+.social-links li a i {
+    width: 45px;
+    height: 45px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+}
+
+
+/* ----------------------- Main */
+
+
+
+#home-services{
+    height: 600px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+#left-container{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#center-container{
+    width: 33%;
+    margin:0 auto;
+}
+
+#right-container{
+    padding-top: 30px;
+    width:33%;
+    float: right;
+}
+
+
+.left-container-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-container-heading{
+    width:50%;
+    float:left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-container-heading h2{
+    text-align: right;
+}
+
+
+.right-container-heading p {
+    text-align: right;
+}
+
+
+ @media screen and (max-width: 1393px) {
+
+    #home-services {
+        width: 65%;
+        height: 1400px;
+        margin: 0 auto; 
+    }
+    
+    
+    #left-container, #right-container{
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+    
+    
+    #center-container {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    } 
+        hr {
+        display: none;
+    }
+
+@media screen and (max-width: 943px) {
+    
+    
+    #home-services {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto; 
+    }
+
+    .right-container-heading,
+    .left-container-heading
+     {
+        width: inherit;
+    }
+    
+    .right-container-heading h2,
+    .left-container-heading h2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .right-container-heading p,
+    .left-container-heading p {
+        text-align: center;
+        padding: 0 20 0 20;
+    }
+
+
+   }
+
+  @media screen and (max-width: 800px) {
+
+ 
+    .right-container-heading h2,
+    .left-container-heading h2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .right-container-heading ul,
+    .left-container-heading ul {
+        text-align: center;
+        padding: 0 20 0 20;
+    }
+
+  }
+

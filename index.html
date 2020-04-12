@@ -5,9 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 	<script src="https://use.fontawesome.com/9465bb0d71.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<title>Edenderry Swimming Pool</title>
@@ -15,60 +17,129 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="index.html">Edenderry Swimming Pool</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false">
-							Dropdown link
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="timetable.html">Timetable</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Services
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="learntoswim.html">Learn to swim</a>
+								<a class="dropdown-item" href="getfit.html">Get Fit</a>
+								<a class="dropdown-item" href="hydro.html">Hydro Therapy</a>
+								<a class="dropdown-item" href="poolparty.html">Pool Parties</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section id="home-services">
+
+		<div id="left-container">
+			<div class="left-container-heading">
+				<h2>Learn to swim</h2>
+				<hr>
+				<ul>
+					<li>Children Lessons</li>
+					<li>Adult Lessons</li>
+					<li>Rookie Lifeguard</li>
+					<li></li>
 				</ul>
 			</div>
-		</nav>
-	</header>
-	<section>
-   <h1>body section</h1> 
+			<div class="left-container-heading">
+				<h2>Get Fit</h2>
+				<hr>
+				<ul>
+					<li>Swimming</li>
+					<li>Aqua Aerobics</li>
+					<li>Volleyball</li>
+					<li>Water Welness</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div id="right-container">
+
+			<div class="right-container-heading">
+				<h2>Hydro Therapy </h2>
+				<hr>
+				<ul>
+					<li>Sauna</li>
+					<li>Steam Room</li>
+					<li>Ice Cold Water Bath</li>
+					<li>Sport Recovery</li>
+				</ul>
+			</div>
+			<div class="right-container-heading">
+				<h2>Pool Parties</h2>
+				<hr>
+				<ul>
+					<li>Standard</li>
+					<li>Ultimate</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div id="center-container">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2500">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="assets/images/swimmingpool.jpg" alt="First slide">
+    </div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="assets/images/swimming1.jpg" alt="Second slide">
+    </div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="assets/images/swimming2.jpg" alt="Third slide">
+    </div>
+							</div>
+						</div>
+					</div>
+
+
 	</section>
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">---Picture---</h5>
+			<div class="col-lg-4">
+				<h5 class="uppercase general-sub">Edenderry Swimming Pool</h5>
 				<p class="inline-block">
-					Edenderry Swimming Pool
+					St Conleths Road , Edenderry, Co. Offaly R45PT32 <br>
+                    046 9731294
 				</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<h5 class="uppercase general-sub">Links</h5>
 				<p class="inline-block">
 					<ul>
 						<li>Home</li>
-						<li>Rules & Regulation</li>
+						<li><a href="rules.html">Rules & Regulation</a></li>
 						<li>Services</li>
 						<li>Contact</li>
 					</ul>
 				</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<h5 class="uppercase general-sub">Social</h5>
 				<ul class="list-inline social-links">
 					<li class="list-inline-item">
