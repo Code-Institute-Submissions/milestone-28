@@ -23,7 +23,17 @@ hr{
     
 }
 
+.row-style {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
+.img-style {
+
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 10%;
+}
 
 /* ----------------------- Header */
 
