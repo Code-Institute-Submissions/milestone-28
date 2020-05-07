@@ -6,15 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<script src="https://use.fontawesome.com/9465bb0d71.js"></script>
-    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+	<script>
+		document.getElementsByTagName("html")[0].className += " js";
+	</script>
 	<link rel="stylesheet" href="assets/css/style-timetable.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<title>Timetable - Edenderry Swimming Pool</title>
 </head>
 
@@ -30,6 +33,9 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
 							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="timetable.html">Timetable</a>
@@ -55,248 +61,344 @@
 			</nav>
 		</div>
 	</header>
-
 	<section>
-  <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
-    <div class="cd-schedule__timeline">
-      <ul>
-        <li><span>09:00</span></li>
-        <li><span>09:30</span></li>
-        <li><span>10:00</span></li>
-        <li><span>10:30</span></li>
-        <li><span>11:00</span></li>
-        <li><span>11:30</span></li>
-        <li><span>12:00</span></li>
-        <li><span>12:30</span></li>
-        <li><span>13:00</span></li>
-        <li><span>13:30</span></li>
-        <li><span>14:00</span></li>
-        <li><span>14:30</span></li>
-        <li><span>15:00</span></li>
-        <li><span>15:30</span></li>
-        <li><span>16:00</span></li>
-        <li><span>16:30</span></li>
-        <li><span>17:00</span></li>
-        <li><span>17:30</span></li>
-        <li><span>18:00</span></li>
-      </ul>
-    </div> <!-- .cd-schedule__timeline -->
-  
-    <div class="cd-schedule__events">
-      <ul>
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Monday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Tuesday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Wednesday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:00" data-end="13:45"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Thursday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="15:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="17:00" data-end="18:30"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Friday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:30" data-end="14:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  
-    <div class="cd-schedule-modal">
-      <header class="cd-schedule-modal__header">
-        <div class="cd-schedule-modal__content">
-          <span class="cd-schedule-modal__date"></span>
-          <h3 class="cd-schedule-modal__name"></h3>
-        </div>
-  
-        <div class="cd-schedule-modal__header-bg"></div>
-      </header>
-  
-      <div class="cd-schedule-modal__body">
-        <div class="cd-schedule-modal__event-info"></div>
-        <div class="cd-schedule-modal__body-bg"></div>
-      </div>
-  
-      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
-    </div>
-  
-    <div class="cd-schedule__cover-layer"></div>
-  </div> <!-- .cd-schedule -->
+		<div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+			<div class="cd-schedule__timeline">
+				<ul>
+					<li><span>09:00</span></li>
+					<li><span>09:30</span></li>
+					<li><span>10:00</span></li>
+					<li><span>10:30</span></li>
+					<li><span>11:00</span></li>
+					<li><span>11:30</span></li>
+					<li><span>12:00</span></li>
+					<li><span>12:30</span></li>
+					<li><span>13:00</span></li>
+					<li><span>13:30</span></li>
+					<li><span>14:00</span></li>
+					<li><span>14:30</span></li>
+					<li><span>15:00</span></li>
+					<li><span>15:30</span></li>
+					<li><span>16:00</span></li>
+					<li><span>16:30</span></li>
+					<li><span>17:00</span></li>
+					<li><span>17:30</span></li>
+					<li><span>18:00</span></li>
+				</ul>
+			</div> <!-- .cd-schedule__timeline -->
 
-  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
-  <script src="assets/js/main.js"></script>
+			<div class="cd-schedule__events">
+				<ul>
+					<li class="cd-schedule__group">
+						<div class="cd-schedule__top-info"><span>Monday</span></div>
+
+						<ul>
+							<li class="cd-schedule__event">
+								<a data-start="09:00" data-end="10:45" data-content="event-abs-circuit"
+									data-event="event-1" href="#0">
+									<em class="cd-schedule__name">Early bird</em>
+								</a>
+							</li>
+
+							<li class="cd-schedule__event">
+								<a data-start="11:00" data-end="11:45" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="12:00" data-end="12:45" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="13:00" data-end="13:45" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="14:00" data-end="14:45" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="15:00" data-end="18:30" data-content="event-restorative-yoga"
+									data-event="event-4" href="#0">
+									<em class="cd-schedule__name">Free Swimm</em>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="cd-schedule__group">
+						<div class="cd-schedule__top-info"><span>Tuesday</span></div>
+
+						<ul>
+							<li class="cd-schedule__event">
+								<a data-start="09:00" data-end="11:30" data-content="event-abs-circuit"
+									data-event="event-1" href="#0">
+									<em class="cd-schedule__name">Early bird</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="12:00" data-end="13:00" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="13:15" data-end="14:00" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="14:15" data-end="15:00" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="15:15" data-end="16:00" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="16:15" data-end="18:00" data-content="event-restorative-yoga"
+									data-event="event-4" href="#0">
+									<em class="cd-schedule__name">Free Swimm</em>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="cd-schedule__group">
+						<div class="cd-schedule__top-info"><span>Wednesday</span></div>
+
+<ul>
+							<li class="cd-schedule__event">
+								<a data-start="09:00" data-end="10:45" data-content="event-abs-circuit"
+									data-event="event-1" href="#0">
+									<em class="cd-schedule__name">Early bird</em>
+								</a>
+							</li>
+
+							<li class="cd-schedule__event">
+								<a data-start="11:00" data-end="11:45" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="12:00" data-end="12:45" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="13:00" data-end="13:45" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="14:00" data-end="14:45" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="15:00" data-end="18:30" data-content="event-restorative-yoga"
+									data-event="event-4" href="#0">
+									<em class="cd-schedule__name">Free Swimm</em>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="cd-schedule__group">
+						<div class="cd-schedule__top-info"><span>Thursday</span></div>
+
+						<ul>
+								<li class="cd-schedule__event">
+								<a data-start="09:00" data-end="11:30" data-content="event-restorative-yoga"
+									data-event="event-4" href="#0">
+									<em class="cd-schedule__name">Free Swimm</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="12:00" data-end="13:00" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="13:15" data-end="14:00" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="14:15" data-end="15:00" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="15:15" data-end="16:00" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="16:15" data-end="18:30" data-content="event-restorative-yoga"
+									data-event="event-4" href="#0">
+									<em class="cd-schedule__name">Free Swimm</em>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="cd-schedule__group">
+						<div class="cd-schedule__top-info"><span>Friday</span></div>
+
+						<ul>
+							<li class="cd-schedule__event">
+								<a data-start="09:00" data-end="10:45" data-content="event-abs-circuit"
+									data-event="event-1" href="#0">
+									<em class="cd-schedule__name">Early bird</em>
+								</a>
+							</li>
+
+							<li class="cd-schedule__event">
+								<a data-start="11:00" data-end="11:45" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="12:00" data-end="12:45" data-content="event-rowing-workout"
+									data-event="event-2" href="#0">
+									<em class="cd-schedule__name">Children Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="13:00" data-end="13:45" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="14:00" data-end="14:45" data-content="event-yoga-1" data-event="event-3"
+									href="#0">
+									<em class="cd-schedule__name">Adult Lessons</em>
+								</a>
+							</li>
+							<li class="cd-schedule__event">
+								<a data-start="15:00" data-end="18:30" data-content="event-restorative-yoga"
+									data-event="event-4" href="#0">
+									<em class="cd-schedule__name">Free Swimm</em>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="cd-schedule-modal">
+				<header class="cd-schedule-modal__header">
+					<div class="cd-schedule-modal__content">
+						<span class="cd-schedule-modal__date"></span>
+						<h3 class="cd-schedule-modal__name"></h3>
+					</div>
+
+					<div class="cd-schedule-modal__header-bg"></div>
+				</header>
+
+				<div class="cd-schedule-modal__body">
+					<div class="cd-schedule-modal__event-info"></div>
+					<div class="cd-schedule-modal__body-bg"></div>
+				</div>
+
+				<a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+			</div>
+
+			<div class="cd-schedule__cover-layer"></div>
+		</div> <!-- .cd-schedule -->
+
+		<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+		<script src="assets/js/main.js"></script>
 
 	</section>
-
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
 			<div class="col-lg-4">
-				<h5 class="uppercase general-sub">Edenderry Swimming Pool</h5>
+				<h5 class="uppercase">Edenderry Swimming Pool</h5>
 				<p class="inline-block">
-					St Conleths Road , Edenderry, Co. Offaly R45PT32 <br>
-                    046 9731294
+					<i class="fas fa-map-marker-alt"></i><span> St Conleths Road , Edenderry, Co. Offaly R45PT32</span>
 				</p>
+				<p class="inline-block">
+					<i class="fas fa-phone"></i> 046 9731294</p>
+				<p class="inline-block">
+					<i class="fas fa-envelope"></i>contact@gmail.com</p>
+				<p class="inline-block"><i class="fab fa-skype"></i> skype: swimming</p>
 			</div>
 			<div class="col-lg-4">
-				<h5 class="uppercase general-sub">Links</h5>
+				<h5 class="uppercase">Links</h5>
 				<p class="inline-block">
-					<ul>
-						<li>Home</li>
-						<li>Rules & Regulation</li>
-						<li>Services</li>
-						<li>Contact</li>
+					<ul class="links">
+						<li><a href="index.html"> Home</a></li>
+						<li><a href="rules.html">Rules & Regulation</a></li>
+						<li><a href="learntoswim.html">Learn to swim</a></li>
+						<li><a href="getfit.html">Get Fit</a></li>
+						<li><a href="hydro.html">Hydro Therapy</a></li>
+						<li><a href="poolparty.html">Pool Party</a></li>
+						<li><a href="contact.html"> Contact</a></li>
 					</ul>
 				</p>
 			</div>
 			<div class="col-lg-4">
-				<h5 class="uppercase general-sub">Social</h5>
+
+				<h5 class="uppercase"> Connect with Us </h5><br>
+				<form action="">
+					<input class="newsletter-input" type="email" placeholder="E-mail adrress" required>
+                    <button class="newsletter-button">Sign Up</button>
+				</form>
 				<ul class="list-inline social-links">
 					<li class="list-inline-item">
-						<a href="" target="_blank">
+						<a href="https://www.facebook.com/EdenderrySwimmingPool/" target="_blank">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
 							<span class="sr-only">Facebook</span>
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a href="" target="_blank">
+						<a href="https://twitter.com/explore" target="_blank">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 							<span class="sr-only">Twitter</span>
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a href="" target="_blank">
+						<a href="https://www.instagram.com/?hl=en" target="_blank">
 							<i class="fa fa-instagram" aria-hidden="true"></i>
 							<span class="sr-only">Instagram</span>
 						</a>
 					</li>
+					<li class="list-inline-item">
+						<a href="https://www.youtube.com/" target="_blank">
+							<i class="fab fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">Youtube</span>
+						</a>
+					</li>
+
 				</ul>
-				<h5 class="uppercase general-sub"> Newsletter </h5>
-				<form action="">
-					<input type="text" >
-                </form>
+
 			</div>
+		</div>
+		<div class="footer-copyright text-center py-3">© 2020 Copyright
 		</div>
 	</footer>
 </body>
