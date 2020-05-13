@@ -52,6 +52,8 @@ Timetable - available 5 days need 7days, links from the schedule are kept
     - The project uses CSS
 - [Bootstrap](https://getbootstrap.com/)
     - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome is a font and icon toolkit based on CSS .
 - [Gallery](https://bootsnipp.com/snippets/aMGnk)
     - The project uses Image Gallery using bootstrap 4.
 - [Timetable](https://codyhouse.co/demo/schedule-template/index.html)
