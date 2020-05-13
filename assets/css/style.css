@@ -5,77 +5,58 @@
 * {
     margin:0;
     padding:0;
-
 }
 
 body {
-
     background-color: #fff;
     font-family: 'Baloo Tamma 2', cursive;
 }
 
 .uppercase {
-
     text-transform: uppercase;
 }
 
 ul {
-
     list-style-type: none;
-
 }
 
 hr {
-
     border-top: 1px solid #777777;
     width: 100%;
     margin: 5px 0;
-    
 }
 
-.row-style {
+/* text for services  */
 
+.row-style {
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.img-style {
+/* image for services  */
 
+.img-style {
     padding-top: 10px;
     padding-bottom: 15px;
     border-radius: 10%;
- 
 }
 
-.text-box {
-
+/*.text-box {
     margin-left: 20px;
     margin-bottom: 10px;
     padding: 20px 0 20px 50px;
     height: 180px;
     width: 300px;
-
-}
+}*/
 
 i {
-
     font-size: 20px;
-
-}
-
-.card-header {
-
-    background-color: rgb(11,66,175);
-    color: #fff;
-
 }
 
 /* ----------------------- Header */
 
 .navbar {
-
     font-size: 20px;
-
 }
 
 /* ----------------------- wave https://stackoverflow.com/questions/17202548/wavy-shape-with-css */
@@ -119,55 +100,45 @@ i {
 
 /* ----------------------- Footer */
 #footer-details {
-
     padding: 15px;
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
 footer {
-
     background-color:rgb(11,66,175);
     min-height: 100px;
     margin: 0;
     color: #fff;
-
 }
 
 footer p {
-
     font-size: 15px;
-
 }
 
+/* links section  */
+
 .links {
-
     font-size: 15px;
-
 }
 
 .links li a {
-
     color: #64b5f6;
-
 }
 
 .links li a:hover {
-
     color: #fff;
     text-decoration: none;
-
 }
 
 .inline-block i {
-
     width: 40px;
     font-size: 25px;
 }
 
-.social-links li a i {
+/* social links section  */
 
+.social-links li a i {
     margin-top: 30px;
     margin-right: 10px;
     width: 45px;
@@ -182,156 +153,144 @@ footer p {
     -moz-transition: all 0.20s ease-in-out;
     -webkit-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
-
 }
 
 .social-links li a i:hover {
-
     color: white;
-
 }
 
-.newsletter-input {
+/* newsletter submit - connect with us section */
 
+.newsletter-input {
   background-color: transparent;
   color: #fff;
   width: 200px;
   height: 30px;
   border: 1px solid #64b5f6;
   border-radius: 5px;
-
 }
 
 .newsletter-input:hover {
-
   border-color: #fff;
-
 }
 
 .newsletter-button {
-
   background-color: transparent;
   color: #fff;
   width: 70px;
   height: 30px;
   border: 1px solid #64b5f6;
   border-radius: 5px;
-
 }
 
 .newsletter-button:hover {
-
   border-color: #fff;
-
 }
 
 ::placeholder { 
-
   color: #fff;
-
 }
 
 /* ----------------------- index.html  */
 
-.carousel-caption {
-
-    position: absolute;
-    background-color: rgba(11, 66, 175, 0.5);
-    width: 200px;
-    height: 170px;
-    top: 0;
-    
-    
-}
-
-.carousel-caption a {
-
-    text-decoration: none;
-    color: #fff;
-}
-
-.carousel-caption a:hover {
-
-     color: rgb(255, 253, 145);
-}
+/* home page desktop view  */
 
 #home-section {
-
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     padding: 25px 0 30px 0;
-
 }
 
+.carousel-caption {
+    position: absolute;
+    background-color: rgba(11, 66, 175, 0.5);
+    width: 200px;
+    height: 170px;
+    top: 0;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.carousel-caption a:hover {
+     color: rgb(255, 253, 145);
+}
+
+/* Modal "close" button / contact form "send" button */
+
 .send-button {
-
- background-color: rgb(11,66,175);
- color: #fff;
-
+    background-color: rgb(11,66,175);
+    color: #fff;
 }
 
 .send-button:hover{ 
-
-  border-color: rgb(11,66,175);
-  color: rgb(11,66,175);
-  background-color: #fff;
-
+    border-color: rgb(11,66,175);
+    color: rgb(11,66,175);
+    background-color: #fff;
 }
 
-.alert {
+/* Covid19 alert */
 
+.alert {
   margin-bottom: 1px;
   height: 40px;
   line-height:40px;
   padding:0px 15px;
-
 }
 
-.card-swimm {
-    background: url("/assets/images/swimming2.jpg") no-repeat center center; 
+/* mobile view home page section */
+
+.card-header {
+    background-color: rgb(11,66,175);
+    color: #fff;
+    height: 50px;
+}
+
+.card-swim {
+    background: url("/assets/images/swimming2.jpg") no-repeat; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  }
 
 .card-getfit {
-    background: url("/assets/images/getfit.jpg") no-repeat center center; 
+    background: url("/assets/images/getfit.jpg") no-repeat; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card-hydro {
     background: url("/assets/images/hydrozone.jpg") no-repeat center center; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card-pool {
-    background: url("/assets/images/party2.jpg") no-repeat center center; 
+    background: url("/assets/images/party2.jpg") no-repeat center; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* ----------------------- gallery.html  - used https://bootsnipp.com/snippets/aMGnk*/
 
 .gallery-body {
-
     margin:10px;
     font-size:16px;
     margin-bottom: 20px;
-
 }
 
 .green {
-
     background-color:#6fb936;
 }
 
 .thumb {
-
     margin-bottom: 30px;
  }
         
 .page-top {
-
     margin-top:85px;
 }
 
 img.zoom {
-
     width: 100%;
     height: 200px;
     border-radius:5px;
@@ -340,71 +299,56 @@ img.zoom {
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
-
 }
         
  .transition {
-
     -webkit-transform: scale(1.2); 
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
-
 }
 
 /* ----------------------- timetable.html  https://codyhouse.co/demo/schedule-template/index.html */
 
 .cd-schedule__event a {
-
     text-decoration: none;
-
 }
 
 .cd-schedule__event a:hover {
-
     color: rgb(255, 253, 145);
-
 }
 
 .timetable {
-
     margin: 15px;
-
 }
 
 /* ----------------------- contact.html */
 
+/* Contact Form */
+
 .card {
-
     margin-top: 60px;
-
 }
 
 .card a:hover {
-
     text-decoration: none;
-
 }
 
 .form-style {
-
     background-color: rgb(11,66,175);
     color: #fff;
-
 }
 
 .i {
-
     color: rgb(11,66,175);
 }
 
-.fb-page {
+/* Facebook container */
 
+.fb-page {
     height: 550px;
     margin-top: 30px;
-
 }
-
 
 /* ----------------------- responsive */
 
@@ -414,34 +358,24 @@ img.zoom {
 
 @media screen and (max-width: 943px) {
     .img-style {
-        
         margin-left: auto;
         margin-right: auto;
         display: block;
         width: 100%;
     }
-
     #home-section {
-
     padding: 0 0 30px 0;
-
     }
-
 }
 
   @media screen and (max-width: 800px) {
     .img-style {
-
         margin-left: auto;
         margin-right: auto;
         display: block;
         width: 100%;
-
     }
-
     #home-section {
-
     padding: 0 0 30px 0;
-
     }
 }
