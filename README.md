@@ -1,20 +1,17 @@
 # Milestone project 1 - "Edenderry Swimming Pool"
 
-Swimming pool is situated in my local comnunity in Edenderry.
-The web page that was avalable at the start of the project was 10 years old and impossible to view on smartphones. (the origianl webpage is under construction now and being updated)
-I choose it as my subject with intention of bringing in my contribution to community by delivering free of charge update.
+The swimming pool is situated in my local community in Edenderry.
+The web page that was available at the start of the project was 10 years old and impossible to view on smartphones. (the original webpage is under construction now and being updated).
+I choose it as my subject with the intention of bringing in my contribution to the community by delivering free of charge update to the website.
 
 
 ## UX
 
-Website is adressed to local community swimming pool. Project focus is on providing information about timetable, location and service prices of the local swimming pool ,
-in a simple reponsive and acceseble UX interface.
-
-The best way to achive it is to build an intuitive and familiar layot of the page that can be navigated without any setbacks.
-
-As a user main information interest me a an user on a swimming pool presentation page are location/services/timetable/price.
-Goal is to give user information he need a click away.
-Action is to place relevant links on main page so they are easy to reach.
+The website is addressed to the local community swimming pool. 
+The project focus is on providing information about timetable, location and service prices of the local swimming pool, in a simple responsive and accessible UX interface.
+The best way to achieve it is to build an intuitive and familiar layout of the page that can be navigated without any setbacks.
+As a user main information interests me a user on a swimming pool presentation page are location/services/timetable/price.
+The goal is to give user information he needs a click away.Action is to place relevant links on the main page so they are easy to reach.
 
 
 First mockups for the base design and structure :
@@ -29,27 +26,22 @@ First mockups for the base design and structure :
 
 ## Features
 
-carousel - bootsrap
-gallery
-timetable
-contact facebook
+**Navigation bar** - allow the user to navigate the website
 
+**Homepage Carousel** - it is a slideshow that cycles through pictures with links to provided services and allows users to get to the requested page in one click.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+**Timetable** - is a schedule that allows the user to have a visual overview of information about the timetable and activities.
+
+**Contact page - Facebook** - allows users to connect directly to swimming pool official Facebook page and view latest posts and send a message
+
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-Contact form - dummy 
-Subscribe newsletter - dummy
-Timetable - avalable 5 days need 7, links from schedule are kept as on original .html (need some js knowledge to follow and change them to needed names)
+Contact form - dummy, need to be functional
+
+Subscribe newsletter - dummy, need to be functional
+
+Timetable - available 5 days need 7days, links from the schedule are kept as on original .html (need some js knowledge to follow and change them to needed names)
 
 ## Technologies Used
 
@@ -68,65 +60,84 @@ Timetable - avalable 5 days need 7, links from schedule are kept as on original 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing scalability and adjusting was done using next devices and tools :
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- iphone 6s, google pixel 3xl
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- an full hd and hd resolutions (different laptops used)
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- tested with chrome inspect toolkit for responsiveness
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Testing cross-browser compatibility was done using:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- chrome , firefox, safari.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Link to the page was sent to a few friends for testing, after feedback next change was made: 
+
+- main page carousel item was hidden in mobile view to give it a simpler appearance, bootstrap card used instead.
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+All project was developed on GitPod and deployd on GitHub Pages for sharing and testing.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+https://xz3t.github.io/milestone-1/index.html
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ### Content
 
 - The text for the page was copied from the [Edenderry Swimming Pool](http://edenderryswimmingpool.ie/)
 
+### Acknowledgements
+
+I have used tutorials /examples that I have done during the course.
+
 ### Media
 
 - The photos used in this site were obtained from next sources:
 
-learn to swim: https://www.holmesplace.com/de/en/blog/fitness/how-to-teach-kids-to-swim-a-step-by-step-guide
+learn to swim:
 
-get fit: http://blog.ymcagta.org/blog/2015/12/02/aquafit-our-fifth-fitness-solution-for-seniors/
+https://www.holmesplace.com/de/en/blog/fitness/how-to-teach-kids-to-swim-a-step-by-step-guide
 
-hydrotherapy: https://www.physio.co.uk/treatments/hydrotherapy/hydrotherapy-for-neurological-conditions.php
+get fit: 
 
-pool party: https://www.shannonleisurecentre.ie/activities/kids-camps/
+http://blog.ymcagta.org/blog/2015/12/02/aquafit-our-fifth-fitness-solution-for-seniors/
 
-learn to swim 2 : https://valleyleisurelifestyle.files.wordpress.com/2013/11/img_0453-edit-web.jpg
+hydrotherapy: 
 
-children lessons: https://www.our.ie/county-louth/drumcar/arts-sports-and-recreation/swimming-lessons-louth-gormanstown/web1055/
+https://www.physio.co.uk/treatments/hydrotherapy/hydrotherapy-for-neurological-conditions.php
 
-adult lessons: https://dlrleisure.ie/swimming/
+pool party: 
 
-pool party: https://www.volumesband.com/general/planning-a-birthday-party-for-your-kid-read-this-first/
+https://www.shannonleisurecentre.ie/activities/kids-camps/
 
-standard: https://www.childrens.com/health-wellness/how-to-have-a-safer-pool-party
+learn to swim 2 : 
 
-ultimate: https://carrotsncake.com/birthday-party-at-goldfish-swim-school/
+https://valleyleisurelifestyle.files.wordpress.com/2013/11/img_0453-edit-web.jpg
 
-swimming:
+children lessons: 
+
+https://www.our.ie/county-louth/drumcar/arts-sports-and-recreation/swimming-lessons-louth-gormanstown/web1055/
+
+adult lessons: 
+
+https://dlrleisure.ie/swimming/
+
+pool party: 
+
+https://www.volumesband.com/general/planning-a-birthday-party-for-your-kid-read-this-first/
+
+standard: 
+
+https://www.childrens.com/health-wellness/how-to-have-a-safer-pool-party
+
+ultimate: 
+
+https://carrotsncake.com/birthday-party-at-goldfish-swim-school/
+
+swimming services:
 
 https://eastsidewaterpolo.org/wp-content/uploads/2017/08/waterpoloball.jpg
 
@@ -135,14 +146,15 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.clubvitae.com%2Ftallaght%2
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fupliftconnect.com%2Fsoaking-in-wellness%2F&psig=AOvVaw1-HrbP8vsOW0gZXTNCbfY7&ust=1589134941476000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDIvZWzp-kCFQAAAAAdAAAAABAD
 
 
-hydrozone:
+hydrozone services:
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fgoodspaguide.co.uk%2Ffeatures%2Fhydrotherapy&psig=AOvVaw32OGtamljMUAs34xicSECp&ust=1589135049661000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiD3tGzp-kCFQAAAAAdAAAAABAe
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fpursuit.ca%2Fwatches-style%2Fcalgarys-top-spas-for-guys%2F&psig=AOvVaw3NIKMITH7YD610BEWsstpV&ust=1589135275098000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOClxLG0p-kCFQAAAAAdAAAAABAH
 
 
-POOL
+Pool images used in gallery :
+
 https://www.davidlloyd.ie/swim
 
 https://www.mirror.co.uk/science/swallowing-one-mouthful-swimming-pool-16251728

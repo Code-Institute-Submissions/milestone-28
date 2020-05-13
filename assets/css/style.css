@@ -41,13 +41,13 @@ hr {
     border-radius: 10%;
 }
 
-/*.text-box {
+.text-box {
     margin-left: 20px;
     margin-bottom: 10px;
     padding: 20px 0 20px 50px;
     height: 180px;
     width: 300px;
-}*/
+}
 
 i {
     font-size: 20px;
@@ -140,7 +140,7 @@ footer p {
 
 .social-links li a i {
     margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 45px;
     height: 45px;
     padding: 12px 0;
@@ -164,10 +164,11 @@ footer p {
 .newsletter-input {
   background-color: transparent;
   color: #fff;
-  width: 200px;
+  width: 150px;
   height: 30px;
   border: 1px solid #64b5f6;
   border-radius: 5px;
+  margin-right: 2px;
 }
 
 .newsletter-input:hover {
